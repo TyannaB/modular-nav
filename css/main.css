@@ -17,6 +17,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+ }
+
 header {
   background-color: #e2e2e2;
   margin: 0;
@@ -36,23 +40,22 @@ a {
 }
 
 a:hover {
-  color: #e2e2e2;
+  color: #fff;
   background-color: #0074d9;
-  padding: .5em;
 }
 
 header {
   text-align: center;
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
-    header {
-      text-align: left;
-    }
+  header {
+    text-align: left;
+  }
 
-    li {
-      text-align: right;
-    }
+  .right {
+    text-align: right;
+  }
 
 }
