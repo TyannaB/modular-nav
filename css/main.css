@@ -17,19 +17,42 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #e2e2e2;
+  margin: 0;
+  width: 100%;
+}
 
 li {
   text-decoration: none;
   display: inline-block;
+  text-align: center;
+  padding: .5em;
 }
 
 a {
   text-decoration: none;
-  color: #e2e2e2;
-
-
+  color: #0074d9;
 }
 
-a href {
+a:hover {
+  color: #e2e2e2;
   background-color: #0074d9;
+  padding: .5em;
+}
+
+header {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+    header {
+      text-align: left;
+    }
+
+    li {
+      text-align: right;
+    }
+
 }
